@@ -1,0 +1,133 @@
+.middle-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.App {
+  font-family: 'Outfit', sans-serif;
+}
+
+
+
+#auto {
+
+}
+
+
+#name {
+  margin-top: 30px;
+}
+
+
+
+
+.left {
+  text-align: left;
+}
+
+
+
+#red {
+  background-color: blue;
+}
+
+.btn{
+  background-color: blue;
+  padding:5px;
+}
+
+.subtitle {
+  margin-top: -3px;
+}
+
+.human-name {
+  margin-top: 3px;
+}
+
+.fa {
+  margin: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.fa-github {
+  margin-left: 0px;
+}
+
+#stuff {
+  margin-top: 50px;
+  padding: 0px !important;
+  background-color: #967BB6;
+  padding:20px;
+}
+
+@media (max-width: 400px) {
+  .col-5 {
+    margin-right: -3px;
+  }
+
+  .mobile-bottom {
+    margin-bottom: 10px;
+  }
+
+  .big-big {
+    padding: 20px 0px 20px 0px;
+  }
+
+}
+
+.far {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.pull {
+  max-width: 1000px;
+}
+
+.tall {
+  height: 100%;
+  width: 100%;
+}
+
+.words {
+  padding: 16px;
+}
+
+h1 {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  color: white;
+  padding-left: 15px;
+  text-shadow: -1px -1px 3px black;
+}
+
+.big-big {
+  min-height: 60vh;
+  margin: 0 !important;
+}
+
+.cut-corners {
+  border-radius: 6px;
+}
+
+.snake {
+  width: 100%;
+  color: white;
+}
+
+#band-name {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-shadow: 2px 2px 2px black;
+}
+
+iframe {
+  display: block;
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+  background: blue; /* this is just to make the frames easier to see */
+  border: 0px !important;
+}
