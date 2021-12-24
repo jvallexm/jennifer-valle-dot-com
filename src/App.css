@@ -114,13 +114,19 @@ h1 {
 
 .snake {
   width: 100%;
+  min-height: 50vh;
   color: white;
 }
 
 #band-name {
-  padding-top: 120px;
-  padding-bottom: 120px;
   text-shadow: 2px 2px 2px black;
+  min-height: 50vh;
+  color: white;
+}
+
+.snake-border {
+  border: 3px solid white;
+  border-radius: 6px;
 }
 
 iframe {

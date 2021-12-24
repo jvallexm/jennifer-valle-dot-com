@@ -5,12 +5,12 @@ import React from "react";
 function Music() {
     return (            <Row>
         <Col sm={6}>
-          <div>
+          <div className="snake-border">
             <Parallax
               bgImage={"assets/images/liveatpinhook.png"}
-              className="snake cut-corners"
+              className="cut-corners"
             >
-              <h2 id="band-name">snake shaming</h2>
+              <h2 id="band-name" className="middle-text">snake shaming</h2>
             </Parallax>
           </div>
         </Col>
